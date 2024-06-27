@@ -1,0 +1,49 @@
+/* src/components/NavigationBar.css */
+
+.custom-navbar {
+  border-bottom: 2px solid #eee;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+.logout-button {
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+
+.logout-button:hover {
+  transform: scale(1.1);
+}
+
+/* Additional Styles for Background and Header */
+
+body {
+  background-image: url('your-image.jpg'); /* Replace 'your-image.jpg' with the actual name of your image file */
+  background-size: cover;
+  background-position: center;
+  animation: parallax 20s infinite alternate;
+}
+
+@keyframes parallax {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.custom-header {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #fff;
+}
